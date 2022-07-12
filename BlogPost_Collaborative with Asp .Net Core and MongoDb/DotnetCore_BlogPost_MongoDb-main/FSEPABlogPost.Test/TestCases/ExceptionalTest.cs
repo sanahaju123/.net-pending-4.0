@@ -20,7 +20,7 @@ namespace FSEPABlogPost.Test.TestCases
         public readonly Mock<IBlogPostRepository> mockservice = new Mock<IBlogPostRepository>();
         public BlogPost blogPost;
         public Comment comments;
-        private static string type = "Exceptional";
+        private static string type = "Exception";
         public ExceptionalTest(ITestOutputHelper output)
         {
             _services = new BlogPostServices(mockservice.Object);
