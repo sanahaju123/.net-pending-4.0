@@ -26,7 +26,7 @@ namespace GroceryEmart.Tests.TestCases
         private ApplicationUser _user;
         private Product _product;
         private Category _category;
-        private static string type = "Exceptional";
+        private static string type = "Exception";
         public ExceptionalTest(ITestOutputHelper output)
         {
             /// <summary>
