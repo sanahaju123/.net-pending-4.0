@@ -29,7 +29,7 @@ namespace E_Loan.Tests.TestCases
         private UserMaster _userMaster;
         private LoanProcesstrans _loanProcesstrans;
         private LoanApprovaltrans _loanApprovaltrans;
-        private static string type = "Exceptional";
+        private static string type = "Exception";
         public ExceptionalTest(ITestOutputHelper output)
         {
             /// <summary>
