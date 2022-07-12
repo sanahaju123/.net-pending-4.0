@@ -14,7 +14,7 @@ namespace YakshaEvaluation_Test.TestCases
   public class ExceptionalTests
   {
     private readonly ITestOutputHelper _output;
-    private static string type = "Exceptional";
+    private static string type = "Exception";
 
     public ExceptionalTests(ITestOutputHelper output)
     {
