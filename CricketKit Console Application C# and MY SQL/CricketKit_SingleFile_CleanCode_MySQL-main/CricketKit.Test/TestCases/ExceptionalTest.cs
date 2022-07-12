@@ -9,7 +9,7 @@ namespace CricketKit.Test.TestCases
     public class ExceptionalTest
     {
         private readonly ITestOutputHelper _output;
-        private static string type = "Exceptional";
+        private static string type = "Exception";
         public ExceptionalTest(ITestOutputHelper output)
         {
             _output = output;
